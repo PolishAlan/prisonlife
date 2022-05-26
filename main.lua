@@ -1,6 +1,6 @@
 local plr = game:GetService("Players").LocalPlayer
 --Information
-local beingupdated = false
+local beingupdated = true
 local discord = "None"
 --InformationEnd
 if(beingupdated == false) then
