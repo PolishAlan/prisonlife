@@ -1,6 +1,6 @@
 local plr = game:GetService("Players").LocalPlayer
 --Information
-local beingupdated = false
+local beingupdated = true
 --InformationEnd
 if(beingupdated == false) then
     rconsolename('Prison Life GUI - Synapse X Edition: ' ..plr.Name)
