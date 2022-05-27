@@ -1,10 +1,8 @@
 local plr = game:GetService("Players").LocalPlayer
-local prisonlife = game.PlaceId
 --Information
 local beingupdated = false
 local discord = "None"
 --InformationEnd
-	if(prisonlife == 155615604) then
 		if(beingupdated == false) then
                 rconsolename('Prison Life GUI - Synapse X Edition: ' ..plr.Name)
                 rconsoleprint('@@CYAN@@')
@@ -25,11 +23,7 @@ local discord = "None"
 	Title = "Prison Life GUI",
 	Text = "Oh no, the gui is being updated",
 	Icon = "rbxassetid://9731610495"
-})
-	else
-		rconsoleprint('@@RED@@')
-    rconsoleprint('YOURE NOT PLAYING PRISON LIFE! CANNOT EXECUTE.')
-		plr:Kick('YOURE NOT PLAYING PRISON LIFE! CANNOT EXECUTE.')
+}) 
     end
 print 'Prison Life GUI - Synapse X Edition: Custom Launcher loaded'
 -- Prison Life GUI - Synapse X Edition: Custom Launcher
