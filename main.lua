@@ -6,13 +6,13 @@ local discord = "None"
 if(beingupdated == false) then
     rconsolename('Prison Life GUI - Synapse X Edition: ' ..plr.Name)
     rconsoleprint('@@CYAN@@')
-    rconsoleprint('Autoupdater included!  Discord: '..discord)
+    rconsoleprint('Autoupdater included!  Discord: '..discord ..'  Roblox: no')
     rconsoleprint('@@BLUE@@')
     rconsoleprint('  Log: ')
     game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "Prison Life GUI", -- Required
+	Title = "Prison Life GUI",
 	Text = "Holy shit! You actually have Synapse X (or any other paid exploit)", -- Required
-	Icon = "rbxassetid://9731610495" -- Optional
+	Icon = "rbxassetid://9731610495"
 })
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/XYZ12715/prisonlife/main/plgui.lua'),true))()
     else
@@ -20,8 +20,10 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/XYZ12715/prisonlife/
     rconsoleprint('@@RED@@')
     rconsoleprint('THE GUI IS BEING UPDATED! CANNOT EXECUTE.')
     game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "Prison Life GUI", -- Required
-	Text = "Holy shit, im sorry. It's being fucking updated", -- Required
-	Icon = "rbxassetid://9731610495" -- Optional
+	Title = "Prison Life GUI",
+	Text = "Oh no, the gui is being updated",
+	Icon = "rbxassetid://9731610495"
 })
     end
+print 'Prison Life GUI - Synapse X Edition: Custom Launcher loaded'
+-- Prison Life GUI - Synapse X Edition: Custom Launcher
